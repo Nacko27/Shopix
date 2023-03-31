@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shopix | Online Shopping Application</title>
+	<link rel="shortcut icon"  href="../Shopix/public/images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!----header--->
+	<header>
+		<a href="#" class="logo">Shopix</a>
+
+		<ul class="navlist">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#featured">Featured</a></li>
+			<li><a href="#products">Products</a></li>
+			<li><a href="#new">New</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+
+		<div class="header-icons">
+				<a ><i class='bi bi-bag-check' id="cart-icon"></i></a>
+				<div class="bi bi-list" id="menu-icon"></div>
+		</div>
+		   
+		
+		<div class="cart">
+			<h2 class="cart-title">Your Cart</h2>
+			<!-- content -->
+			<div class="cart-content">
+				
+			</div>
+			<!-- TOTAL -->
+			<div class="total">
+				<div class="total-title">Total</div>
+				<div class="total-price">$0</div>
+			</div>
+				<button type="button" class="btn-buy">Buy Now</button>
+				<i class="bi bi-x-lg" id="cart-close"></i>
+		</div>
+	</header>
+
+	<!----home--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h1>Men's New <br><span>Arrivals</span></h1>
+			<p>New colors, now also available in men's sizing</p>
+			<a href="#products" class="btn">View Collection</a>
+		</div>
+	</section>
+
+	<!----featured--->
+	<section class="featured" id="featured">
+		<div class="center-text">
+			<h2>Featured Categories</h2>
+		</div>
+
+		<div class="featured-content">
+			<div class="row">
+				<img src="public/images/fea1.jpg">
+				<div class="fea-text">
+					<h5>Mens</h5>
+					<p>10 items</p>
+				</div>
+				<div class="arrow">
+					<a href="#"><i class='bx bx-right-arrow-alt'></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="public/images/fea2.jpg">
+				<div class="fea-text">
+					<h5>Mens</h5>
+					<p>10 items</p>
+				</div>
+				<div class="arrow">
+					<a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="public/images/fea3.jpg">
+				<div class="fea-text">
+					<h5>Mens</h5>
+					<p>10 items</p>
+				</div>
+				<div class="arrow">
+					<a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="public/images/fea4.jpg">
+				<div class="fea-text">
+					<h5>Mens</h5>
+					<p>10 items</p>
+				</div>
+				<div class="arrow">
+					<a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/fea5.jpg">
+				<div class="fea-text">
+					<h5>Mens</h5>
+					<p>10 items</p>
+				</div>
+				<div class="arrow">
+					<a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="public/images/fea6.jpg">
+				<div class="fea-text">
+					<h5>Mens</h5>
+					<p>10 items</p>
+				</div>
+				<div class="arrow">
+					<a href="#"><i class='bx bx-right-arrow-alt' ></i></a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Our Products -->
+
+	<section class="shop" id="products">
+            <h2 class="section-title">Shop Product</h2>
+
+            <div class="shop-content">
+                <div class="product-box">
+                    <img src="public/images/product-1.jpg" class="product-img" alt="">
+                    <h2 class="product-title">CAMERA</h2>
+                    <span class="product-price">$79.5</span>
+                    <i class="bi bi-bag add-cart"></i>
+                </div>
+
+                <div class="product-box">
+                    <img src="public/images/product-2.jpg" class="product-img" alt="">
+                    <h2 class="product-title">T-SHIRT</h2>
+                    <span class="product-price">$79.5</span>
+                    <i class="bi bi-bag add-cart"></i>
+                </div>
+
+                <div class="product-box">
+                    <img src="public/images/product-3.jpg" class="product-img" alt="">
+                    <h2 class="product-title">LAMP</h2>
+                    <span class="product-price">$79.5</span>
+                    <i class="bi bi-bag add-cart"></i>
+                </div>
+
+                <div class="product-box">
+                    <img src="public/images/product-4.jpg" class="product-img" alt="">
+                    <h2 class="product-title">Nike Shoes</h2>
+                    <span class="product-price">$79.5</span>
+                    <i class="bi bi-bag add-cart"></i>
+                </div>
+
+                <div class="product-box">
+                    <img src="public/images/product-5.jpg" class="product-img" alt="">
+                    <h2 class="product-title">Drone</h2>
+                    <span class="product-price">$79.5</span>
+                    <i class="bi bi-bag add-cart"></i>
+                </div>
+
+                <div class="product-box">
+                    <img src="public/images/product-6.jpg" class="product-img" alt="">
+                    <h2 class="product-title">Watch</h2>
+                    <span class="product-price">200</span>
+                    <i class="bi bi-bag add-cart"></i>
+                </div>
+
+                <div class="product-box">
+                    <img src="public/images/product-7.jpg" class="product-img" alt="">
+                    <h2 class="product-title">Women</h2>
+                    <span class="product-price">$89.5</span>
+                    <i class="bi bi-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                        <img src="public/images/product-8.jpg" class="product-img" alt="">
+                        <h2 class="product-title">Cream </h2>
+                        <span class="product-price">$54.5</span>
+                        <i class="bi bi-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="public/images/product-9.jpg" class="product-img" alt="">
+                    <h2 class="product-title">Chai r</h2>
+                    <span class="product-price">$79.5</span>
+                    <i class="bi bi-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="public/images/product-1.jpg" class="product-img" alt="">
+                    <h2 class="product-title">Nike Shoes</h2>
+                    <span class="product-price">$79.5</span>
+                    <i class="bi bi-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="public/images/product-1.jpg" class="product-img" alt="">
+                    <h2 class="product-title">Nike Shoes</h2>
+                    <span class="product-price">$79.5</span>
+                    <i class="bi bi-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="public/images/product-1.jpg" class="product-img" alt="">
+                    <h2 class="product-title">Nike Shoes</h2>
+                    <span class="product-price">$79.5</span>
+                    <i class="bi bi-bag add-cart"></i>
+                </div>
+
+            </div>
+        </section>
+
+
+	<!-- Our Products Ends-->
+
+	<!----cta--->
+	<section class="cta">
+		<div class="cta-text">
+			<h6>SUMMER ON SALE</h6>
+			<h4>20% OFF <br> NEW ARRIVAL</h4>
+			<a href="#" class="btn">Shop Now</a>
+		</div>
+	</section>
+
+	<!----new--->
+	<section class="new" id="new">
+		<div class="center-text">
+			<h2>New Arrivals</h2>
+		</div>
+
+		<div class="new-content">
+			<div class="box">
+				<img src="public/images/tren1.jpg">
+				<h5>Lorem Ipsum dizgi</h5>
+				<h6>$188</h6>
+				<div class="sale">
+					<h4>Sale</h4>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="public/images/tren2.jpg">
+				<h5>Lorem Ipsum dizgi</h5>
+				<h6>$188</h6>
+				<div class="sale">
+					<h4>Sale</h4>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="public/images/tren3.jpg">
+				<h5>Lorem Ipsum dizgi</h5>
+				<h6>$188</h6>
+				<div class="sale">
+					<h4>Sale</h4>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="public/images/tren4.jpg">
+				<h5>Lorem Ipsum dizgi</h5>
+				<h6>$188</h6>
+				<div class="sale">
+					<h4>Sale</h4>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+	<!----brand--->
+	<section class="brand">
+		<div class="brand-content">
+			<div class="main">
+				<img src="public/images/brand1.png">
+			</div>
+
+			<div class="main">
+				<img src="public/images/brand2.png">
+			</div>
+
+			<div class="main">
+				<img src="public/images/brand3.png">
+			</div>
+
+			<div class="main">
+				<img src="public/images/brand4.png">
+			</div>
+
+			<div class="main">
+				<img src="public/images/brand5.png">
+			</div>
+
+			<div class="main">
+				<img src="public/images/brand6.png">
+			</div>
+
+		</div>
+	</section>
+
+	<!----contact--->
+	<section class="contact" id="contact">
+	<div class="main-contact">
+			<h3>Explore</h3>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#featured">Featured</a></li>
+			<li><a href="#products">Products</a></li>
+			<li><a href="#new">New</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</div>
+		
+		<div class="main-contact">
+			<h3>Customer Policies</h3>
+			<li><a href="">Contact Us</a></li>
+			<li><a href="">FAQ</a></li>
+			<li><a href="">T&C</a></li>
+			<li><a href="">Privacy Policy</a></li>
+			<li><a href="">Grievance Officer</a></li>
+		</div>
+		
+
+		<div class="main-contact">
+			<h3>Useful Links</h3>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Careers </a></li>
+			<li><a href="#">Gift Cards</a></li>
+			<li><a href="">Shipping</a></li>
+			<li><a href="">Corporate Information</a></li>
+		</div>
+
+		
+		<div class="main-contact">
+			<h3>Shopix</h3>
+			<h5>Let's Connect With Us</h5>
+			<div class="icons">
+				<a><i class='bx bxl-facebook-square'></i></a>
+				<a><i class='bx bxl-instagram-alt' ></i></a>
+				<a><i class='bx bxl-twitter' ></i></a>
+			</div>
+		</div>
+		<div class="main-contact">
+				<h3>Newsletter</h3>
+				<p>Subscribe For Latest Updates</p>
+				<input type="text" placeholder="your email" class="email">
+				<input type="submit" value="subscribe" class="btn">
+			</div>
+			
+	</section >
+
+	
+	<div class="last-text">
+		<p>Copyright © 2023 All rights reserved | <span>By Nikhil Jambhulkar</span></p>
+	</div>
+
+	<!----scroll top--->
+	<a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!----custom js link--->
+	<script src="js/script.js"></script>
+	
+</body>
+</html>
